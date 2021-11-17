@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="./Css/style.css" />
+  </head>
+  <body>
+    <div class="outer-wrapper">
+      <!-- heading section -->
+      <section class="text-title">
+        <div class="container">
+          <div class="text-wrapper">
+            <h1 class="h1-text">Text Editor</h1>
+            <h2 class="h2-text">Text Editor Using Stack Data Structure</h2>
+          </div>
+        </div>
+      </section>
+
+      <!--editor section -->
+      <section class="editor-section">
+        <div class="outer-editor-wrapper">
+          <div class="container editor-wrapper">
+            <!-- navbar of editor -->
+            <div class="editor-nav">
+              <ul class="nav-ul">
+                <li class="new" id="new">New</li>
+                <li class="undo" id="undo">Undo</li>
+                <li class="redo" id="redo">Redo</li>
+                <li class="save" id="save">Save</li>
+              </ul>
+            </div>
+            <!-- body of editior -->
+            <div class="editor-body">
+              <textarea
+                rows="19"
+                class="text-area"
+                placeholder="Type Here..."
+                id="text-area"
+              ></textarea>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- script files -->
+    <script src="./Js/script.js"></script>
+    <script src="./Js/utils.js"></script>
+  </body>
+</html>
