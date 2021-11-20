@@ -10,6 +10,14 @@ clearTextArea.addEventListener("click", () => {
   textArea.value = "";
 });
 
+//❤️Text area gets automatically focus when the page is loaded for the first time.
+textArea.focus();
+
+//❤️Text area gets automatically focus when the 'New' list element is clicked!.
+clearTextArea.addEventListener("click", function () {
+  textArea.focus();
+});
+
 // event listner for input in  text area
 textArea.addEventListener("input", (e) => {
   textArea.value = e.target.value;
